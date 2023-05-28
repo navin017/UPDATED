@@ -1,0 +1,49 @@
+import React from 'react'
+// import { useSelector } from 'react-redux';
+// import './products.css';
+// import AutoFixHighRoundedIcon from '@mui/icons-material/AutoFixHighRounded';
+
+// export const ProductComponent = () => {
+//   const products = useSelector((state) => state.allProducts.products);
+//   const { id, title, category,image} = products[0];
+//   return (
+//     <div>
+//       <div className='components'>
+//       <img className="img" src={image} alt='img'/>
+//         <ul>
+//           <div className='content'>
+//             <li>
+//               {title}
+//               {id}
+//               {category}
+//             </li>
+//             <li className='modify'><button className='view-btn'>view</button><AutoFixHighRoundedIcon/></li>
+//           </div>
+//         </ul>
+//       </div>
+//     </div>
+//   )
+// }
+// export const productReducer = (state = initialState,{type,payload})=>{
+//     switch(type){
+//         case ActionType.SET_PRODUCTS:
+//             return state;
+//         default:
+//             return state;
+            
+//     }
+// }
+
+<!-- {showDetails[product.id] ? 
+    <form >     
+    <table className='viewForm'>
+      <tr>
+      <td><label for='id'>ENTER PRODUCT ID</label></td>
+     
+      {product.title}
+      </tr>
+    </table>
+    </form>
+    :
+    ''} -->
+    <!-- {form ? onClick={editHandler}:''} -->
